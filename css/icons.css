@@ -1,0 +1,4 @@
+.icon-arrow-left:before {
+	content: "<-";
+	font-size: 130%;
+}
