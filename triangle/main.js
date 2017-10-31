@@ -414,9 +414,9 @@ function categoryListRender(categoryList, parent) {
       containerDiv.appendChild(containerUL);
       containerDiv.appendChild(containerA);
 
-
-      container.appendChild(containerDiv);
-      categoryListRender(it.subs, (container.childNodes[1].childNodes[0]));
+      console.log(containerDiv.childNodes[1]);
+      container.appendChild(containerDiv.childNodes[1]);
+      categoryListRender(it.subs, (container.childNodes[1]));
 
     }
 
